@@ -1,0 +1,2 @@
+steps:
+  - name: 'gcr.io/pythonbuilds/twine_deploy'
