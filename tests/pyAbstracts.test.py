@@ -6,7 +6,7 @@ class TestAbstracts(unittest.TestCase):
         pass
  
     def test_should_pass(self):
-        self.assertEqual(True, True)
+        self.assertEqual(True, False)
 
 
 if __name__ == '__main__':
