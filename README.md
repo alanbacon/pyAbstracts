@@ -1,1 +1,1 @@
-<img src="https://img.shields.io/github/contributors/badges/shields" />
+<img src="https://storage.cloud.google.com/eu.artifacts.pythonbuilds.appspot.com/build/github_alanbacon_pyabstracts-master.svg?supportedpurview=project&sanitize=true" />
