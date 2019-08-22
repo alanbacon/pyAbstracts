@@ -1,1 +1,1 @@
-<img src="https://storage.cloud.google.com/eu.artifacts.pythonbuilds.appspot.com/build/github_alanbacon_pyabstracts-master.svg?supportedpurview=project&sanitize=true" />
+![Screenshot](https://storage.cloud.google.com/eu.artifacts.pythonbuilds.appspot.com/build/sketch.jpg?supportedpurview=project&_ga=2.259941385.-2004096221.1543333951&_gac=1.60958302.1566348058.CjwKCAjwtO7qBRBQEiwAl5WC279HzQvQ2j_lLxyhwLdOZoroRe5WSh9_q2p9Db2QZDFWUcHoQDD7sxoCDBAQAvD_BwE)
