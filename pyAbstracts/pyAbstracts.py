@@ -49,7 +49,7 @@ class TypedList(collections.MutableSequence):
 
     def __setitem__(self, i, v):
         v = self.check(v)
-        self.__onSetItem__(i,v)
+        self.__onSetItem__(i, v)
         self._list[i] = v
 
     # method to add a new member to the list (at a specified index), 
@@ -58,7 +58,7 @@ class TypedList(collections.MutableSequence):
     # called by append and extend
     def insert(self, i, v):
         v = self.check(v)
-        self.__onSetItem__(i,v)
+        self.__onSetItem__(i, v)
         self._list.insert(i, v)
 
     # is meant to return something that is human readable
@@ -71,11 +71,17 @@ class TypedList(collections.MutableSequence):
     def __repr__(self):
         return str(self._list)
         
-    def sort(self,reverse=False):
-        self._list = sorted(self._list,reverse=reverse)
+    def sort(self, reverse=False):
+        self._list = sorted(self._list, reverse=reverse)
         
     def __iter__(self):
         return self._list.__iter__()
+
+    def __eq__(self, other):
+        if not type(other) == type(self):
+            return False
+
+        return self._list == other._list
     
 
 ## http://stackoverflow.com/questions/1061283/lt-instead-of-cmp
